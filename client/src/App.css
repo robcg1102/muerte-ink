@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+.hrstyle{
+  border: 1px solid #FFD547;
+  width: 85%;
+}
+.App {
+  text-align: center;
+}
+.nameInk{
+  color: #FFD547;
+  font-weight: bolder;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.bodyHome
+{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.homelogo{
+  height: 80vh;
+}
+
+
+
+.thename{
+  font-size: 10vw;
+  font-family: 'Long Cang', cursive;
+  padding: 0;
+  margin: 0;
+  animation: text-flicker-in-glow 4s linear both;
+}
+
+
+ @-webkit-keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+@keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+
+.titmail{
+  color: white;
+}
+
+.logohome{
+  height: 25vh;
+  margin: 15vw;
+}
+
+
+.boxtattoo{
+  color: white;
+  background-color: #1B1B1E;
+  margin: 3vw 8vw;
+  border-radius: 3px;
+  border: #FFD547 solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 0 50px 0;
+}
+
+.contenttattoo{
+  width: 50%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.desctattoo{
+  text-align: center;
+  width: 40%;
+}
+.contentmoret{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imgmore{
+  width: 300px;
+  margin: 10px;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+}
+.polaroid > img {
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2em;
+}
+.item .polaroid:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.40s;
+}
+.item:nth-of-type(2n+1) {
+  transform: scale(0.8, 0.8) rotate(5deg);
+  transition: all 0.35s;
+}
+.item:nth-of-type(2n+1) .polaroid:before {
+  transform: rotate(6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  right: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0, 0, 0, 0.4);
+}
+.item:nth-of-type(2n+2) {
+  transform: scale(0.8, 0.8) rotate(-5deg);
+  transition: all 0.35s;
+}
+.item:nth-of-type(2n+2) .polaroid:before {
+  transform: rotate(-6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  left: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0, 0, 0, 0.4);
+}
+.item:hover {
+  filter: none;
+  transform: scale(1, 1) rotate(0deg);
+  transition: all 0.40s;
+}
+.item:hover .polaroid:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transform: rotate(0deg);
+  height: 60%;
+  width: 60%;
+  bottom: 0%;
+  right: 10%;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  transition: all 0.35s;
+}
+
+.myfooter{
+  display: flex;
+  justify-content: space-around;
+  color: #FFD547;
+  margin: 0 0 6px 0;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+}
+
+.myform input, .myform textarea{
+  margin: 15px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 98%;
+  height: 30px;
+}
+.myform textarea{
+  height: 120px;
+}
+.madeby{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #4D4A43;
+  padding: 30px 0 0 0;
+}
+.me{
+  color: #FFD547;
+  text-decoration: none;
+}
+
+.myfooter a{
+  text-decoration: none;
+  color: white;
+}
+
+.imgsocial{
+  color: #FFD547;
+}
+
+
+.contact{
+  color: white;
+  text-align: start;
+}
+
+.mail{
+  text-align: center;
+  width: 40%;
+}
+
+.sendbutton{
+  display: flex;
+  justify-content: center;
+}
+
+.imgcar{
+  width: 45%;
+  padding: 20px 15px;
+}
+.imgcard{
+  width: 40%;
+  padding: 15px 5px;
+  border-radius: 50%;
+  margin: 5px 0;
+}
+.imgcard:hover{
+  border-radius: 8px;
+  background-color: #FFD547;
+}
+
+.certBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flashimg{
+  width: 25%;
+  padding: 5px;
+  border-radius: 15px;
+}
+.flashimg:hover{
+  transform: scale(1.1) rotate(3deg);
+}
+.contentFlash{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .homelogo {
+    display: none;
+  }
+  .bodyHome{
+    display: block;
+    text-align: center;
+    padding: 0 0 100px 0; 
+  }
+  .boxtattoo{
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+  }
+  .contentmoret{
+    flex-direction: column;
+    align-content: center;
+  }
+  .myfooter{
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contact{
+    margin: 0 0 0 50px;
+  }
+  .desctattoo{
+    width: 95%;
+    font-size: 30px;
+  }
+  .contenttattoo{
+    width: auto;
+    
+  }
+  .myform {
+    align-items: center;
+    width: 95%;
+    padding-left: 10px;
+  }
+  .navBaR{
+    padding: 0 0 0 0;
+    font-size: .8em;
+  }
+  .thename{
+    font-size: 16vw;
+  }
+ 
+  .imgcar{
+    width: 90%;
+  }
+  .imgcard{
+    width: 90%;
+    border-radius: 15px;
+  }
+  .mail{
+    width: auto;
+  }
+  .flashimg{
+    width: 80%;
+    padding: 5px;
+  }
+}
+
+
+
